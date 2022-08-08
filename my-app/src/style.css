@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #70B85D;
+    color: white;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+button {
+    width: 30%;
+    background-color: transparent;
+    padding: 1rem;
+    color:white;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+button:hover {
+    background-color: #FFFEF1;
+    color: #2c5e2e;
+}
+
+button:focus {
+    outline: 0;
+}
